@@ -1,12 +1,13 @@
 # Angular2-app
-This is a basic Angular-2 app with stable CLI version. Angular-CLI command now creates new project with only Angular version-4. This project serves purpose for starting a new Angular project from scratch with Angular version-2 with stable CLI upgrade changes [Angular-CLI version 1.1.2].
+This is a basic Angular-2 app with stable CLI version. Angular-CLI command now creates new project with only Angular version-4. This project serves purpose for starting a new Angular project from scratch with Angular version-2 coupled with stable CLI upgrade changes [Angular-CLI version 1.1.2].
 
 #PreRequisites: Angular 2 installation steps :
+NOTE : Linux users need to use sudo before any installation commands mentioned below
 
 1. Install node.js version v6.9+ download it from here https://nodejs.org/en/download/
-   For Ubuntu use following :
-   curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-   sudo apt-get install -y nodejs
+   For Ubuntu use following commands :
+   a) curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+   b) sudo apt-get install -y nodejs
 
 2. To check installed node version --> node -v
 
@@ -19,11 +20,11 @@ This is a basic Angular-2 app with stable CLI version. Angular-CLI command now c
 7. Check your node and angular/cli version after installation -> ng -v
 
 #Steps to run Application in development mode:
-1) clone project in a folder.
-2) open terminal, and go to directory having package.json
+1) Clone/Pull/Checkout project in a folder.
+2) Open terminal/command prompt, and go to directory having package.json
 3) Install all the dependencies of the project as specified in package.json using 		-> npm install,
-4) them serve the application using														-> ng serve
-5) Open browser, hit on url http://localhost:4200
+4) Start/Run the application using														-> ng serve
+5) Open browser, navigate to url -> http://localhost:4200
 
 #Important commands to create new angular 2 parts:
 1) Component	    ng g component my-new-component

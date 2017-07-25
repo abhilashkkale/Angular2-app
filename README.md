@@ -26,7 +26,7 @@ NOTE : Linux users need to use sudo before any installation commands mentioned b
 4) Start/Run the application using														-> ng serve
 5) Open browser, navigate to url -> http://localhost:4200
 
-#Important commands to create new angular 2 parts:
+#Important commands to create new angular 2 elements/modules/components:
 1) Component	    ng g component my-new-component
 2) Directive	    ng g directive my-new-directive
 3) Pipe	            ng g pipe my-new-pipe
